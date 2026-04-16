@@ -1,0 +1,24 @@
+.margin {
+    border: 2px dashed gray;
+    padding: 20px;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.border {
+    background: #1b9e77;
+    padding: 20px;
+    color: black;
+}
+
+.padding {
+    background: #ddd;
+    padding: 40px;
+}
+
+.content {
+    border: 2px dashed gray;
+    padding: 40px;
+    background: #eee;
+}
