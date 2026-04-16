@@ -1,0 +1,54 @@
+body {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.green {
+    background-color: green;
+    left: 100px;
+    top: 50px;
+    width: 60px;
+    height: 40px;
+    z-index: 1;
+}
+
+.blue {
+    background-color: blue;
+    left: 260px;
+    top: 50px;
+    width: 60px;
+    height: 40px;
+    z-index: 2;
+}
+
+.yellow {
+    background-color: yellow;
+    left: 180px;
+    top: 130px;
+    width: 60px;
+    height: 40px;
+    z-index: 4;
+}
+
+.red {
+    background-color: red;
+    left: 340px;
+    top: 130px;
+    width: 60px;
+    height: 40px;
+    z-index: 3;
+}
