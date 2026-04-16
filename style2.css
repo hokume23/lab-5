@@ -1,0 +1,39 @@
+.container {
+    width: 900px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #eee;
+    padding: 10px;
+    position: relative;
+}
+
+.card img {
+    width: 20%;
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+
+.title {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+    text-align: right;
+}
